@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background:url(bk3.jpg);
+     background-size:cover;
+}
+
+.a{
+   background-color:lawngreen;
+    text-align: center;
+    animation: type 5s ease-in;
+}
+@keyframes type {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}

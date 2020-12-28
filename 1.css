@@ -1,0 +1,75 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: url(JK.jpg);
+    background-size: cover;
+}
+
+.a {
+    background-color: black;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: center;
+    animation: type 5s ease-in;
+}
+
+.b {
+    background-color: blanchedalmond;
+    width: 400px;
+    text-align: left;
+}
+
+.c {
+    background-color: khaki;
+    width: 520px;
+}
+
+.d {
+    background-color: lawngreen;
+    text-align: center;
+}
+
+.e {
+    background-color: lightgreen;
+    width: 815px;
+}
+
+.f {
+    background-color: orangered;
+    width: 550px;
+}
+
+.g {
+    background-color: olive;
+    width: 700px;
+}
+
+@keyframes type {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+.img {
+    position: absolute;
+    margin-top: 100px;
+    width: 600px;
+    height: 580px;
+    margin-left: 900px;
+    animation: anim 2s ease-in-out infinite alternate;
+}
+
+@keyframes anim {
+    0% {
+        transform: translate(0px, 0px);
+    }
+    100% {
+        transform: translate(25px, 30px);
+    }
+}
